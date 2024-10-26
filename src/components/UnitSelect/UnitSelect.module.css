@@ -1,0 +1,33 @@
+.unit-wrapper {
+  width: fit-content;
+  position: relative;
+  color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 11px;
+}
+.unit-value {
+  color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  min-width: 12px;
+  cursor: pointer;
+}
+.unit-options {
+  position: absolute;
+  margin-top: 5px;
+  width: fit-content;
+  background: #21293b;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 3px;
+}
+.unit-option {
+  padding: 2px 4px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.unit-option:hover {
+  background: #414b61;
+}

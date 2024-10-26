@@ -1,0 +1,19 @@
+.collapsible {
+  margin-bottom: 2px;
+}
+
+.collapsible-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d4b6c;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.collapsible-content {
+  margin: 8px;
+}

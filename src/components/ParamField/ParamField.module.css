@@ -1,0 +1,46 @@
+.wrapper {
+  width: 50px;
+  min-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrapper.dirty::before {
+  content: "";
+  height: 2px;
+  width: 60%;
+  border-bottom: 1px dashed yellow;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  translate: -50% -50%;
+}
+.default {
+  color: #fff;
+  opacity: 0.8;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 11px;
+}
+.field {
+  width: 50px;
+  background: #25273e;
+  outline: 1px solid #57b0f0;
+  border: none;
+  color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  padding: 5px 2px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 11px;
+  border-radius: 4px;
+  position: relative;
+}
+.option {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
